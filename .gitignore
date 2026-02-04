@@ -8,3 +8,5 @@ TODOs.md
 .idea/
 .vitepress/dist/
 package-lock.json
+tmp/
+.opencode/
