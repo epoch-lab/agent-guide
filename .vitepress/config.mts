@@ -30,33 +30,31 @@ export default defineConfigWithTheme<ThemeConfig>({
         text: '基础知识',
         items: [
           { text: '总览', link: '/basics/' },
-          { text: 'Skill', link: '/basics/skill' },
+          { text: 'Tool Call', link: '/basics/tool-call' },
           { text: 'MCP', link: '/basics/mcp' },
-          { text: 'Tool Call', link: '/basics/tool-call' }
+          { text: 'Skill', link: '/basics/skill' },
+          { text: 'Rag', link: '/basics/rag' },
         ]
       },
       {
         text: '应用开发',
         items: [
           { text: '总览', link: '/agent-dev/' },
-          { text: '架构设计', link: '/agent-dev/architecture' },
-          { text: '上下文工程', link: '/agent-dev/context-engineering' },
-          { text: '工具编排', link: '/agent-dev/tool-orchestration' }
+          { text: '任务编排', link: '/agent-dev/task-orchestration' },
+          { text: 'ReAct模式', link: '/agent-dev/react' },
+          { text: 'LLM Cache', link: '/agent-dev/llm-cache' }
         ]
       },
       {
         text: '开源 Agent',
         items: [
-          { text: '总览', link: '/open-source-agents/' },
-          { text: 'OpenClaw', link: '/open-source-agents/openclaw' },
-          { text: 'Nanobot', link: '/open-source-agents/nanobot' }
+          { text: '总览', link: '/open-source-agents/' }
         ]
       },
       {
         text: 'Vibe Coding 调优',
         items: [
           { text: '总览', link: '/vibe-coding/' },
-          { text: '调优作战手册', link: '/vibe-coding/optimization-playbook' }
         ]
       }
     ],

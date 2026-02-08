@@ -14,12 +14,12 @@ outline: [2, 3]
 
 ## 推荐阅读顺序
 
-- [架构设计](/agent-dev/architecture)
-- [上下文工程](/agent-dev/context-engineering)
-- [工具编排](/agent-dev/tool-orchestration)
+- [任务编排](/agent-dev/task-orchestration)
+- [ReAct 模式](/agent-dev/react)
+- [大模型缓存](/agent-dev/llm-cache)
 
 ## 本章节目标
 
-- 给出一套可落地的 Agent 应用架构。
-- 建立可观测、可回归、可灰度的研发流程。
-- 用统一标准评估上线风险与收益。
+- 掌握主流的 Agent 任务编排模式（Chain、DAG、Graph、Workflow 等）。
+- 理解 ReAct 推理-行动循环及其工程实现。
+- 学会运用多级缓存策略降低 LLM 调用成本和延迟。
